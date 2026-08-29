@@ -1,0 +1,46 @@
+---
+title: "Research"
+toc: false
+page-layout: article
+---
+
+Papers and preprints will land here. Until then, the [blog](blog.qmd) has the
+working notes.
+
+<!--
+
+TEMPLATE, commented out. Strip the comment markers that wrap this block, then
+replace the placeholders. Lines ending in two spaces are deliberate: that is a
+markdown hard line break.
+
+## Preprints
+
+**A Title That Says What The Paper Does**  
+Vincent Dandenault, Co-Author  
+*arXiv preprint, 2026*
+
+One or two sentences on the result. Keep it plain. What did you measure, and
+what surprised you?
+
+[PDF](files/paper-2026.pdf) · [arXiv](https://arxiv.org/abs/0000.00000) · [Code](https://github.com/vdandenault) · [BibTeX](#bibtex-2026)
+
+## Publications
+
+**An Earlier Paper**  
+Vincent Dandenault, Co-Author  
+*Conference on Something, 2025*
+
+[PDF](#) · [Code](#)
+
+## BibTeX {#bibtex-2026}
+
+``` bibtex
+@article{dandenault2026title,
+  title   = {A Title That Says What The Paper Does},
+  author  = {Dandenault, Vincent and Co-Author, A.},
+  journal = {arXiv preprint arXiv:0000.00000},
+  year    = {2026}
+}
+```
+
+-->

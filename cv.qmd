@@ -1,0 +1,21 @@
+---
+title: "CV"
+toc: false
+page-layout: full
+---
+
+::: {.cv-actions}
+[Download PDF](files/cv.pdf){.btn .btn-cv download="vincent-dandenault-cv.pdf"}
+[Open in a new tab](files/cv.pdf){.btn .btn-cv-quiet target="_blank"}
+:::
+
+::: {.cv-viewer}
+<object data="files/cv.pdf" type="application/pdf" aria-label="Curriculum vitae">
+  <p>Your browser will not display PDFs inline.
+  <a href="files/cv.pdf">Download the CV</a> instead.</p>
+</object>
+:::
+
+::: {.cv-fallback}
+The embedded viewer is hidden on small screens. Use the download button above.
+:::

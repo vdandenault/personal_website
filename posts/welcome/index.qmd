@@ -1,0 +1,13 @@
+---
+title: "Welcome"
+description: "Why this site exists, and what will end up on it."
+date: 2026-08-29
+categories: 
+---
+
+I have kept research notes in private text files for years, but they were also useless to anyone else, and, after about six months, useless to me as well,
+mostly because I never wrote down the part I thought about them at the time.
+
+So I'm hoping this is the simple fix. Everything I work out goes here, in whatever state it is in, and I'm hoping this will be useful to others as well. 
+
+The [research](../../research.qmd) page holds the formal record.

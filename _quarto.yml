@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "files/**"
+
+website:
+  title: "Vincent Dandenault"
+  description: "Machine Learning research, notes, and essays."
+  site-url: "https://vincentdandenault.com"
+  favicon: images/favicon.svg
+  open-graph: true
+  twitter-card: true
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/vdandenault
+        aria-label: GitHub
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS feed
+  page-footer:
+    left: "&copy; 2026 Vincent Dandenault"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    # Drop HTML comments from the output. Commented-out templates and notes
+    # stay in the .qmd source and never reach the shipped page.
+    strip-comments: true
+    html-math-method: mathjax
+    include-in-header: _includes/math-macros.html
+    anchor-sections: true
+    fig-align: center
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+  warning: false

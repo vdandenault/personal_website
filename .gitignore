@@ -1,0 +1,18 @@
+# Rendered site: rebuilt by CI on every push.
+/_site/
+/.quarto/
+
+# Do NOT ignore /_freeze/ -- committing it is what keeps CI builds fast.
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.luarc.json
+
+# Full-resolution photo originals: kept on disk, never committed or served.
+images/originals/
+
+**/*.quarto_ipynb

@@ -1,0 +1,20 @@
+---
+title: "Blog"
+subtitle: "Notes, essays, and things I was confused about."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  # Categories are off until there are enough posts to need them. Posts keep
+  # their `categories:` front matter, so flipping this back on is one word.
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed:
+    title: "Vincent Dandenault"
+  fields: [date, title, description, reading-time]
+# `full` only earned its keep when the category sidebar was there.
+page-layout: article
+title-block-banner: false
+toc: false
+---

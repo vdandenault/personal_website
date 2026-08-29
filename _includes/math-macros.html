@@ -1,0 +1,25 @@
+<!-- LaTeX macros available in every page. Add your own here and they work
+     the same way they do in a .tex preamble: \RR, \E, \norm{x}, ... -->
+<script>
+  window.MathJax = window.MathJax || {};
+  window.MathJax.tex = Object.assign({}, window.MathJax.tex, {
+    macros: {
+      RR: "{\\mathbb{R}}",
+      NN: "{\\mathbb{N}}",
+      E: "{\\mathbb{E}}",
+      Var: "{\\operatorname{Var}}",
+      Cov: "{\\operatorname{Cov}}",
+      KL: "{\\mathrm{KL}}",
+      softmax: "{\\operatorname{softmax}}",
+      argmin: "{\\operatorname*{arg\\,min}}",
+      argmax: "{\\operatorname*{arg\\,max}}",
+      T: "{^{\\mathsf{T}}}",
+      norm: ["{\\left\\lVert #1 \\right\\rVert}", 1],
+      abs: ["{\\left\\lvert #1 \\right\\rvert}", 1],
+      inner: ["{\\left\\langle #1, #2 \\right\\rangle}", 2],
+      set: ["{\\left\\{ #1 \\right\\}}", 1]
+    },
+    tags: "ams",
+    tagSide: "right"
+  });
+</script>

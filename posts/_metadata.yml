@@ -1,0 +1,9 @@
+author: "Vincent Dandenault"
+freeze: auto
+toc: true
+# Hide the category chips under a post title. The front matter keeps them.
+title-block-categories: false
+toc-depth: 3
+code-tools: false
+code-fold: false
+comments: false

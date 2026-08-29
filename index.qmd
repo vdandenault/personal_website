@@ -1,0 +1,25 @@
+---
+title: "Vincent Dandenault"
+subtitle: "Enthusiast"
+toc: false
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/vdandenault
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vincent-dandenault-4516b8136/
+    - icon: envelope
+      text: Email
+      href: mailto:vdandenault@gmail.com
+---
+
+I am a curious Machine Learning Engineer who write about different practical and theorical technical problems I encounter about during my day job. I also do research sometimes, and expose some of those ideas here. 
+
+More formally, the [blog](blog.qmd) is where I work through ideas in a long-form explanations, half-formed intuitions, diagrams that took longer than the math. The [research](research.qmd) page is the formal record of my research. 
+
