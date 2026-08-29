@@ -107,33 +107,6 @@ quarto preview
 
 That opens a live-reloading browser tab. Ctrl-C to stop.
 
-### If `quarto: command not found`
-
-Quarto is not installed, or not on your PATH. Run `brew install --cask quarto`.
-This is unrelated to your Python environment: activating one has no bearing on it.
-
-### If `python3.12: command not found`
-
-It is not installed yet, or the shell has a stale command cache. In order:
-
-```bash
-brew install python@3.12
-hash -r                                  # clear zsh's cached lookups
-ls "$(brew --prefix)/bin/python3.12"     # confirm the binary exists
-```
-
-If the binary is there but the shell still cannot find it, `$(brew --prefix)/bin`
-is missing from your PATH, or conda's `base` is shadowing it. Check with
-`echo $PATH`.
-
-### A note on iCloud
-
-This folder lives in iCloud Drive. Two consequences. A virtualenv there is
-thousands of small files that iCloud will sync and may evict, which breaks the
-environment in confusing ways. It is gitignored, so git never sees it, but iCloud
-does. And iCloud occasionally disagrees with `.git` about file locking. Moving the
-repo to `~/Github/personal_website` fixes both at once.
-
 ## Build caching
 
 `execute: freeze: auto` means a post is only re-executed when its source changes.
@@ -151,20 +124,6 @@ mirror each other. The knobs worth touching first:
 - `$link-color`
 
 The site ships with a light and a dark theme and a toggle in the navbar.
-
-## Adding a profile photo
-
-Drop it at `images/profile.jpg`, then in `index.qmd` switch the front matter to:
-
-```yaml
-about:
-  template: trestles
-  image: images/profile.jpg
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/vdandenault
-```
 
 ## Comments
 
