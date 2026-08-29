@@ -107,12 +107,6 @@ quarto preview
 
 That opens a live-reloading browser tab. Ctrl-C to stop.
 
-## Build caching
-
-`execute: freeze: auto` means a post is only re-executed when its source changes.
-Rendering locally writes the cached output into `_freeze/`. **Commit that folder.**
-CI then skips execution for unchanged posts and builds in seconds.
-
 ## Design
 
 Everything visual is in `styles.scss` and `styles-dark.scss`. The two files
