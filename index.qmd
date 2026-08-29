@@ -19,7 +19,7 @@ about:
       href: mailto:vdandenault@gmail.com
 ---
 
-I am a curious Machine Learning Engineer who write about different practical and theorical technical problems I encounter about during my day job. I also do research sometimes, and expose some of those ideas here. 
+I am a curious Machine Learning Engineer who writes about different practical and theorical technical problems I encounter about during my day job. I also do research sometimes, and expose some of those ideas here. 
 
 More formally, the [blog](blog.qmd) is where I work through ideas in a long-form explanations, half-formed intuitions, diagrams that took longer than the math. The [research](research.qmd) page is the formal record of my research. 
 
